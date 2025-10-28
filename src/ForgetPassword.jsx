@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import './ForgetPassword.css';
+import './ForgetPassword.css';
 
 function ForgetPassword() {
   const [email, setEmail] = useState('');
@@ -22,9 +22,10 @@ function ForgetPassword() {
 
   return (
     <div className="forget-password-container">
-      <h2>Forget Password</h2>
+      
       <form onSubmit={handleSubmit}>
         <div className="input-group">
+          <h2>Forget Password</h2> 
           <label htmlFor="email">Email Address</label>
           <input
             type="email"
