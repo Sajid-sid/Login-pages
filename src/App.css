@@ -1,0 +1,33 @@
+
+
+.ForgetPossword {
+  color: blueviolet;        
+  cursor: pointer;       
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;     
+  text-decoration: underline; 
+  display: flex;
+  justify-content: flex-end; /* Aligns text to the right */
+  transition: color 0.3s ease; 
+
+
+}
+
+.ForgetPossword:hover {
+  color: black;        
+}
+
+
+.forget-password-container h2 {
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: center;
+
+
+}
+
+.home {
+  text-align: center;
+}

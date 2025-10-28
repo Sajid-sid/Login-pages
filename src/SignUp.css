@@ -1,0 +1,92 @@
+/* ====== Page Layout ====== */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+   background: linear-gradient(135deg, #74b9ff, #a29bfe);
+
+}
+
+/* ====== Header ====== */
+.signup-container h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* ====== Form Card ====== */
+form {
+  background: #ffffff;
+  padding: 35px 45px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+}
+
+/* ====== Input Group ====== */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 8px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px 12px;
+  border: 1px solid #b2bec3;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+
+
+/* ====== Country Code + Number Layout ====== */
+
+
+.input-group select {
+  flex: 0.6;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.input-group input[type="text"] {
+  flex: 1;
+}
+
+/* ====== Buttons ====== */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button-group button {
+  flex: 1;
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-group button:hover {
+  background:green;
+  transform: translateY(-2px);
+}
